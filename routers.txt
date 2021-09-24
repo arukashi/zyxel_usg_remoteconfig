@@ -1,0 +1,3 @@
+# Here we are expecting the list of USG devices. I used list of FQDN, but it could be IP addresses too.
+router1.example.com
+router9.example.com
