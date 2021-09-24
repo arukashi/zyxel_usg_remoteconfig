@@ -33,7 +33,7 @@ with open(args.routerlist) as f:
             continue
 
         net_connect.enable()
-        # в файле с инструкциями не указываем configure terminal, метод ниже является тем же conf t
+        # Method below is the same as "configure terminal", so you don't have to have "conf t" instruction in the command file which is passed with --conf parameter
         net_connect.config_mode()
 
         with open(args.conf) as config_file:
